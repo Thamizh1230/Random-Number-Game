@@ -1,0 +1,56 @@
+.static-btn{
+    text-align: center;
+    background-color: #b2dfdb57;
+    box-shadow: 0 0px 12px 0px #aaaa;
+}
+.static-btn h1{
+    font-size: 20px;
+    padding: 40px;
+}
+#numbtn{
+    margin: 20px 0;
+}
+.displaydata{
+   
+    margin: 20px 9px;
+    width: 23%;
+    padding: 25px;
+    background-color: beige;
+    color: azure;
+    position: relative;
+}
+.displaydata::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgb(244, 194, 130);
+    width: 100%;
+    height: 100%;
+  }
+
+  .displaydata h3 {
+    font-size: 15px;
+  }
+#show_number{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.active{
+    background-color: #35e83c75;
+    color: white;
+  }
+  .active::after{
+    background-color: transparent;
+  }
+  .active_success{
+    background-color: #60a115;
+    color: white;
+  }
+  .active_success::after{
+    background-color: transparent;
+  }
+  
+
